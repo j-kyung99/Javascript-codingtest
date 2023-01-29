@@ -1,3 +1,4 @@
 function solution(s) {
-    return s.split(' ').sort((a,b) => a-b)[0] + ' ' + s.split(' ').sort((a,b) => a-b)[s.split(' ').length - 1];
+    const a = s.split(' ');
+    return Math.min(...a) + ' ' + Math.max(...a);
 }
