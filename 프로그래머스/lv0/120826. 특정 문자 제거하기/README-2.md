@@ -67,5 +67,6 @@
 <li>"BCBdbe" 에서 "B"를 모두 제거한 "Cdbe"를 return합니다.</li>
 </ul>
 
+#### split 메서드가 인자를 기준으로 분리된다는 점을 이용하여 작성
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
