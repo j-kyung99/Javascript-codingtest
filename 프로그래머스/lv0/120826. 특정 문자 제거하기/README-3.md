@@ -67,6 +67,6 @@
 <li>"BCBdbe" 에서 "B"를 모두 제거한 "Cdbe"를 return합니다.</li>
 </ul>
 
-### replaceAll 메서드를 이용하여 작성
+#### replaceAll 메서드를 이용하여 작성
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
