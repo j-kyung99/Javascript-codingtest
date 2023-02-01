@@ -1,12 +1,8 @@
 function solution(numbers, direction) {
-    var answer = [];
-    let n = 0;
     if(direction === 'right') {
-        n = numbers.pop();
-        numbers.unshift(n);
+        numbers.unshift(numbers.pop());
     } else {
-        n = numbers.shift();
-        numbers.push(n);
+        numbers.push(numbers.shift());
     }
     return numbers;
 }
