@@ -1,3 +1,3 @@
 function solution(my_string) {
-    return Array.from(new Set(my_string)).join('');
+    return [...new Set(my_string)].join('');
 }
